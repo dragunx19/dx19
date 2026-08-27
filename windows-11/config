@@ -1,0 +1,49 @@
+{
+    "layer": "bottom",
+    "position": "bottom",
+    "height": 40,
+    "spacing": 5,
+    "modules-left": ["custom/windows"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "pulseaudio", "network", "battery", "idle_inhibitor"],
+    "custom/windows": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "hyprctl dispatch exec 'rofi -show drun'",
+        "on-scroll-up": "hyprctl dispatch exec 'rofi -show drun'",
+        "on-scroll-down": "hyprctl dispatch exec 'rofi -show drun'"
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%A, %B %d, %Y}</big>\n<tt>{:%H:%M:%S}</tt>"
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}% {format_source}",
+        "format-muted": "🔇",
+        "format-source": "🎙️",
+        "format-source-muted": "🔕",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "network": {
+        "format-wifi": "WiFi 📶 {signalStrength}%",
+        "format-ethernet": "Ethernet ⚡",
+        "format-linked": "Ethernet 💻",
+        "format-disconnected": "Disconnected ❌",
+        "on-click": "nm-connection-editor"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-charging": "⚡ {capacity}% {icon}",
+        "format-plugged": "🔌 {capacity}% {icon}",
+        "format-icons": ["🞄", "🞆", "🞈", "🞊", "█"]
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-active": "⏸️",
+        "format-inactive": "▶️"
+    }
+}

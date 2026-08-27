@@ -1,0 +1,51 @@
+[colors.primary]
+background = "#090B14"
+foreground = "#D7E2FF"
+
+[colors.cursor]
+text = "#090B14"
+cursor = "#F5F7FF"
+
+[colors.vi_mode_cursor]
+text = "#090B14"
+cursor = "#F5F7FF"
+
+[colors.search.matches]
+foreground = "#090B14"
+background = "#FFD166"
+
+[colors.search.focused_match]
+foreground = "#090B14"
+background = "#FF3D81"
+
+[colors.footer_bar]
+foreground = "#090B14"
+background = "#D7E2FF"
+
+[colors.selection]
+text = "#090B14"
+background = "#00E5FF"
+
+[colors.normal]
+black = "#1B2138"
+red = "#FF3D81"
+green = "#3DFFB5"
+yellow = "#FFD166"
+blue = "#00B8FF"
+magenta = "#C77DFF"
+cyan = "#00E5FF"
+white = "#A9B7D8"
+
+[colors.bright]
+black = "#45506E"
+red = "#FF6BA6"
+green = "#7DFFCA"
+yellow = "#FFE08A"
+blue = "#54C7FF"
+magenta = "#E0A6FF"
+cyan = "#72F6FF"
+white = "#F5F7FF"
+
+[window]
+# Near-solid surface: wallpaper remains only subtly visible behind the terminal.
+opacity = 0.92

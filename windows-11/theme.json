@@ -1,0 +1,8 @@
+{
+    "name": "windows-11",
+    "description": "Windows 11 inspired theme for Omarchy",
+    "version": "1.0.0",
+    "author": "User",
+    "type": "theme",
+    "inherits": "waycraft"
+}

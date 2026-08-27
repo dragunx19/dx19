@@ -1,0 +1,44 @@
+# JDRJARUM Theme Configuration
+# Black background theme for Omarchy
+
+[colors]
+# Background: Pure black
+background = "#000000"
+# Foreground: Bright white
+foreground = "#ffffff"
+# Primary accent colors in black theme
+primary = "#ff6b6b"  # Red
+secondary = "#4ecdc4" # Teal
+accent = "#ffd166"   # Yellow
+
+[wallpaper]
+# Using black background
+image = "backgrounds/black.png"
+mode = "fill"
+
+[fonts]
+# Font settings for this theme
+family = "JetBrainsMono Nerd Font"
+size = 10
+bold = false
+italic = false
+
+[animation]
+# Smooth animations for dark theme
+duration = 200
+easing = "ease-out"
+
+[border]
+# Thin borders to maintain clean look
+width = 1
+radius = 4
+
+[spacing]
+# Spacing settings for elements in dark theme
+margin = 8
+padding = 4
+
+[system]
+# System specific settings for this theme
+transparency = 0.95
+blur = false
