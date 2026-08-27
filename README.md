@@ -1,1 +1,1 @@
-# dx19
+# dx19 - Omarchy theme
