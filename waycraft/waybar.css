@@ -1,0 +1,14 @@
+* {
+  background-color: @background;
+  color: @foreground;
+  border: 1px solid @tertiary; /* Pixel border */
+  border-radius: 0;
+}
+
+#custom-metal_os {
+  background-color: @accent;
+  color: #ffffff;
+  padding: 0 10px;
+  font-weight: bold;
+  border: 2px solid @secondary;
+}

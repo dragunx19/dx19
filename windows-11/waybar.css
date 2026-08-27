@@ -1,0 +1,79 @@
+/* Waybar Windows 11 theme */
+
+* {
+    font-family: "Noto Sans", "Noto Sans CJK", sans-serif;
+    font-size: 14px;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 30, 0.8); /* Windows 11 dark background with transparency */
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 4px;
+    backdrop-filter: blur(5px);
+}
+
+#waybar {
+    padding: 2px 0;
+}
+
+/* Module styles */
+.modules-left,
+.modules-center,
+.modules-right {
+    
+}
+
+#custom-windows {
+    font-size: 18px;
+    padding: 0 12px;
+    margin: 0 2px;
+    border-radius: 6px;
+    background-color: rgba(60, 60, 60, 0.4);
+    min-width: 32px;
+}
+
+#clock {
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 0 2px;
+    background-color: rgba(60, 60, 60, 0.4);
+    border-radius: 6px;
+}
+
+#tray {
+    padding: 0 8px;
+    margin: 0 2px;
+    background-color: rgba(60, 60, 60, 0.4);
+    border-radius: 6px;
+}
+
+#pulseaudio,
+#network,
+#battery,
+#idle_inhibitor {
+    padding: 0 8px;
+    margin: 0 2px;
+    background-color: rgba(60, 60, 60, 0.4);
+    border-radius: 6px;
+}
+
+#pulseaudio {
+    font-size: 16px;
+}
+
+#network {
+    font-size: 16px;
+}
+
+#battery {
+    font-size: 16px;
+}
+
+#idle_inhibitor {
+    font-size: 16px;
+    margin-right: 8px;
+    border-radius: 6px;
+}

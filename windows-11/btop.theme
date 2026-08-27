@@ -1,0 +1,46 @@
+# Btop theme for Windows 11 style
+# Based on Windows 11 dark theme colors
+
+# Main background
+main_bg = "#1e1e1e"
+# Main foreground
+main_fg = "#e6e6e6"
+
+# Title text (window title)
+title = "#0078d4"
+
+# Border color for panels (like btop)  
+border = "#333333"
+
+# Header text (like in the header of a panel)
+header = "#ffffff"
+   
+# Text for current selected item
+selected = "#0078d4"
+   
+# Text for current highlighted item
+highlighted = "#00a3ff"
+
+# Text for info boxes
+info = "#a9b1d6"
+
+# Text for warning messages 
+warning = "#f44747"
+
+# Text for error messages
+error = "#f44747"
+
+# Bar chart color (CPU)
+cpu_bar = "#0078d4"
+
+# Bar chart color (Memory)
+mem_bar = "#52c41a"
+
+# Bar chart color (Swap)
+swap_bar = "#ff9b70"
+
+# Bar chart color (Network upload)
+net_up = "#20c0d5"
+
+# Bar chart color (Network download)
+net_down = "#00a3ff"
